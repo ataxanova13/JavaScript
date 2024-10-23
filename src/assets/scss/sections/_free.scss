@@ -1,0 +1,83 @@
+.free{
+    padding: 90px 0;
+    background-color: $white-color-2;
+     @media screen  and (max-width:755px){
+        padding-top: 80px;
+     }
+    &__title{
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 44px;
+        color: $main-color;
+        text-align: center;
+        @media screen  and (max-width:598px){
+           font-size: 30px;
+         }
+         @media screen and (max-width:410px) {
+            font-size: 24px;
+          }
+    }
+    &__subtitle{
+        font-weight: 400;
+        line-height: 183%;
+        font-size: 23px;
+        color: $main-color;
+        text-align: center;
+        padding: 32px 0;
+        @media screen and (max-width:410px) {
+            font-size: 22px;
+            line-height: 140%;
+          }
+          @media screen and (max-width:472px) {
+            font-size: 20px;
+            line-height: 140%;
+          }
+          @media screen and (max-width:419px) {
+            font-size: 18px;
+            line-height: 140%;
+          }
+    }
+
+    &__button{
+        background-color: $main-color;
+        border: 1px solid $main-color;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 194%;
+        color: $white-color;
+        padding: 10px 12px;
+        margin: 0 470px;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            background-color: transparent;
+            color: $main-color;
+            opacity: 0.8;
+        }
+        @media screen  and (max-width:1104px){
+            margin: 0 380px;
+        }
+        @media screen  and (max-width:956px){
+            margin: 0 350px;
+            padding: 10px 10px;
+        }
+        @media screen  and (max-width:936px){
+            margin: 0 300px;
+            padding: 10px 10px;
+        }
+        @media screen  and (max-width:836px){
+            margin: 0 250px;
+        }
+        @media screen  and (max-width:639px){
+            margin: 0 120px;
+        }
+        @media screen  and (max-width:498px){
+            margin: 0 80px;
+        }
+        @media screen and (max-width:419px) {
+          margin: 0 60px;
+          }
+      
+    }
+}

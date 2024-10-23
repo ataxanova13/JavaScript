@@ -1,0 +1,125 @@
+.footer{
+    background-color: $main-color;
+    padding: 50px 0;
+    &__wrap{
+        display: flex;
+        align-items: center;
+        column-gap: 100px;
+        @media screen and (max-width:780px) {
+             flex-direction: column;
+        }
+    }
+    &__logo{
+        padding: 40px 0;
+    }
+
+    &__text{
+        font-weight: 400;
+        line-height: 184%;
+        font-size: 19px;
+        color:$footer-color;
+    }
+    &__addres{
+        font-weight: 400;
+        line-height: 184%;
+        font-size: 19px;
+        text-decoration-skip-ink: none;
+        text-decoration: underline;
+        color:$footer-color;
+        &:hover{
+            color: $white-color-2;
+        }
+    }
+    &__links{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 40px 0;
+        @media screen and (max-width:780px) {
+          flex-direction: row;
+          column-gap: 35px;
+       }
+       @media screen and (max-width:424px) {
+        column-gap: 10px;
+      }
+       
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        line-height: 175%;
+        font-size: 20px;
+        color:$footer-color;
+        &:hover{
+            color: $white-color-2;
+        }
+        @media screen and (max-width:371px) {
+            line-height: 0;
+            font-size: 18px;
+           }
+    }
+    &__icon{
+        margin-right: 5px;
+        &:hover{
+            background: $white-color;
+            border: none;
+            border-radius: 5px;
+        }
+        @media screen and (max-width:371px) {
+           width: 30px;
+           height: 30px;
+           }
+    }
+    &__right-text{
+        font-weight: 400;
+        line-height: 130%;
+        font-size: 28px;
+        color:$white-color;
+        text-align: center;
+        @media screen and (max-width:780px) {
+           font-size: 24px;
+         }
+         @media screen and (max-width:424px) {
+            font-size: 20px;
+          }
+    }
+    &__row{
+        position: relative;
+        display: inline-block;
+        padding: 40px 0;
+    }
+    &__input{
+        width: 397px;
+        height: auto;
+        border: 1px solid #99b6c5;
+        background: #99b6c5;
+        padding-right: 40px;
+        border-radius: 2px;    
+        padding: 20px 30px;
+        @media screen and (max-width:424px) {
+           width: 350px;
+          }
+          @media screen and (max-width:371px) {
+            width: 300px;
+           }
+    }
+    
+
+    
+    &__button {
+        position: absolute;
+        right: 10px; 
+        top: 50%;
+        transform: translateY(-50%); /* Tugmani vertikal markazga keltirish */
+        border: none;
+        background: none; /* Tugma fonini olib tashlash */
+        cursor: pointer;
+        width: 34px;
+        height: 34px;
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

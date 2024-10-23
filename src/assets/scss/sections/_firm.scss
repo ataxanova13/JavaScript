@@ -1,0 +1,29 @@
+.firm{
+    padding: 80px 0;
+    @media screen and (max-width:772px) {
+   display: none;
+        }
+    &__wrap{
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+    &__title{
+        font-weight: 400;
+         font-size: 32px;
+         line-height: 160%;
+         color: #00486d;
+         text-align: center;
+    }
+    &__subtitle{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 233%;
+        color: #00486d;
+        text-align: center;
+    }
+
+
+
+
+}
