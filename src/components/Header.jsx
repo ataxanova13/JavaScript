@@ -14,7 +14,7 @@ function Header() {
         <div className="header__wrap">
           <div className="header__left">
             <div className="header__log">
-              <img src="/public/logo.svg" alt="logo" />
+            <img src="https://i.postimg.cc/xyz/logo.svg" alt="logo" />
             </div>
             <div className="header__nav">
               <a href="#" className="header__nav-item">Services</a>
