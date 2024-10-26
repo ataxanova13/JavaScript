@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Menu from "../assets/icons/Menu";
-
+  
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,7 +14,7 @@ function Header() {
         <div className="header__wrap">
           <div className="header__left">
             <div className="header__log">
-            <img src="https://i.postimg.cc/xyz/logo.svg" alt="logo" />
+              <img src="/public/Logo.png" alt="logo" />
             </div>
             <div className="header__nav">
               <a href="#" className="header__nav-item">Services</a>

@@ -11,7 +11,7 @@ function Banner(){
                     <button className="banner__button">Request Consultation</button>
                 </div>
                 <div className="banner__right">
-                <img src="https://example.com/public/Banner.png" alt="banner" />
+                    <img src="/public/Banner.png" alt="banner" />
                 </div>
             </div>
            </div>
