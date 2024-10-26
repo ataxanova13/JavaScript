@@ -3,6 +3,7 @@ import Fecbook from "../assets/icons/Fecbook";
 import Linkeds from "../assets/icons/Linkeds";
 import Twitter from "../assets/icons/Twitter";
 import Arraw from "../assets/icons/Arraw";
+import FooterImg from "/public/Footer.png";
 
 function Footer(){
     return(
@@ -11,7 +12,7 @@ function Footer(){
          <div className="footer__top">
            <div className="footer__wrap">
             <div className="footer__left">
-                <div className="footer__logo"><img src="/public/Footer.png" alt="footer" /></div>
+                <div className="footer__logo"><img src={FooterImg} alt="footer" /></div>
                 <p className="footer__text">2972 Westheimer Road</p>
                 <p className="footer__text">Denver, CO 80021</p>
                 <p href="#" className="footer__text">(720) 555-0123</p>

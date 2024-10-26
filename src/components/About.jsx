@@ -1,10 +1,11 @@
+import AboutImg from "/public/About-img.png";
 
 function About(){
     return (
         <div className="about">
             <div className="container">
                 <div className="about__img">
-                    <img src="/public/About-img.png" alt="about" />
+                    <img src={AboutImg} alt="about" />
                     
                     <div className="about__content">
                     <h2 className="about__title">Personalized Legal Services</h2>

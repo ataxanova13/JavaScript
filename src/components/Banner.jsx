@@ -1,4 +1,5 @@
 import React from "react";
+import BannerImg from "/public/Banner.png";
 
 function Banner(){
     return (
@@ -11,7 +12,7 @@ function Banner(){
                     <button className="banner__button">Request Consultation</button>
                 </div>
                 <div className="banner__right">
-                    <img src="/public/Banner.png" alt="banner" />
+                    <img src={BannerImg} alt="banner" />
                 </div>
             </div>
            </div>
